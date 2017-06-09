@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+        <groupId>com.yunxi.drm</groupId>
+        <artifactId>yx-drm</artifactId>
+        <version>1.0.0</version>
+    </parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.yunxi.drm</groupId>
+	<artifactId>yx-drm-test</artifactId>
+	<packaging>jar</packaging>
+	<name>yx-drm-test</name>
+
+	<dependencies>
+		<!-- ================================================= -->
+		<!-- YXDrm Dependency -->
+		<!-- ================================================= -->
+		<dependency>
+			<groupId>com.yunxi.drm</groupId>
+			<artifactId>yx-drm-web</artifactId>
+		</dependency>
+		
+		<!-- ================================================= -->
+		<!-- 3rd lib -->
+		<!-- ================================================= -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

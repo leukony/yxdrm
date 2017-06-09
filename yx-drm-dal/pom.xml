@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+        <groupId>com.yunxi.drm</groupId>
+        <artifactId>yx-drm</artifactId>
+        <version>1.0.0</version>
+    </parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.yunxi.drm</groupId>
+	<artifactId>yx-drm-dal</artifactId>
+	<packaging>jar</packaging>
+	<name>yx-drm-dal</name>
+
+	<dependencies>
+		<!-- ================================================= -->
+		<!-- YXDrm Dependency -->
+		<!-- ================================================= -->
+		<dependency>
+			<groupId>com.yunxi.drm</groupId>
+			<artifactId>yx-drm-util</artifactId>
+		</dependency>
+		
+		<!-- ================================================= -->
+		<!-- 3rd lib -->
+		<!-- ================================================= -->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+        <groupId>com.yunxi.drm</groupId>
+        <artifactId>yx-drm</artifactId>
+        <version>1.0.0</version>
+    </parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.yunxi.drm</groupId>
+	<artifactId>yx-drm-web</artifactId>
+	<packaging>war</packaging>
+	<name>yx-drm-web</name>
+
+	<dependencies>
+		<!-- ================================================= -->
+		<!-- YXDrm Dependency -->
+		<!-- ================================================= -->
+		<dependency>
+			<groupId>com.yunxi.drm</groupId>
+			<artifactId>yx-drm-util</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.yunxi.drm</groupId>
+			<artifactId>yx-drm-dal</artifactId>
+		</dependency>
+		
+		<!-- ================================================= -->
+		<!-- 3rd lib -->
+		<!-- ================================================= -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
